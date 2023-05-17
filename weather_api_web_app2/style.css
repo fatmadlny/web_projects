@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'montserrat', sans-serif;
+    color: #fff;
+    background-image: url(a.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;  /* alt alta yazılsın */
+    align-items: center; /* yazılar ortalansın */
+    text-align: center; /*içerisindeki etiketlerin içerisindeki değerler yine ortalı bir sekilde gelsin*/
+    background: rgba(0,0,0,.7);
+    height: 100vh; /*yukarıdaki siyahlıgın butun yukseklıgı alması icin, ekranın tamanını belirtir.*/
+}
+
+.header {
+    padding: 50px 20px 30px 20px;
+}
+
+.header h1 {
+    font-size: 50px;
+    color: #dc2b2b;
+    text-shadow: 1px 3px rgba(0,0,0,.9);
+}
+
+.header input {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #dc2b2b;
+    text-align: center;
+    font-size: 20px;
+    color: #f2f2f2;
+
+}
+
+.city {
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-shadow: 1px 3px rgba(0,0,0,.8);
+}
+
+.temp {
+    font-size: 100px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-shadow: 1px 5px rgba(0, 0, 0, 1);
+}
+
+.desc {
+    font-size: 25px;
+    font-style: italic;
+    text-shadow: 1px 3px rgba(0,0,0,.8);
+    margin-bottom: 10px;
+}
+
+.minmax {
+    font-size: 24px;
+    text-shadow: 1px 3px rgba(0,0,0,.8);
+}
